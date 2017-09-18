@@ -1,18 +1,18 @@
 {
     "package_format": 1,
-    "name": "Gogs",
-    "id": "gogs",
+    "name": "Gitea",
+    "id": "gitea",
     "packaging_format": 1,
     "description": {
         "en": "Lightweight git forge",
         "fr": "Forge git légère"
     },
-    "url": "http://gogs.io",
+    "url": "http://gitea.io",
     "license": "MIT",
     "version": "0.11",
     "maintainer": {
-        "name": "tostaki",
-        "email": "maxime@max.privy.place"
+        "name": "npe-2012",
+        "email": "npe-2012@none.local"
     },
     "multi_instance": false,
     "services": [
@@ -29,7 +29,7 @@
                 "type": "domain",
                 "ask": {
                     "en": "Choose a domain for Gogs",
-                    "fr": "Choisissez un domaine pour Gogs"
+                    "fr": "Choisissez un domaine pour Gitea"
                 },
                 "example": "domain.org"
             },
@@ -37,18 +37,18 @@
                 "name": "path",
                 "type": "path",
                 "ask": {
-                    "en": "Choose a path for Gogs",
-                    "fr": "Choisissez un chemin pour Gogs"
+                    "en": "Choose a path for Gitea",
+                    "fr": "Choisissez un chemin pour Gitea"
                 },
-                "example": "/gogs",
-                "default": "/gogs"
+                "example": "/gitea",
+                "default": "/gitea"
             },
             {
                 "name": "admin",
                 "type": "user",
                 "ask": {
-                    "en": "Choose the Gogs administrator (must be an existing YunoHost user)",
-                    "fr": "Choisissez l'administrateur de Gogs (doit être un utilisateur YunoHost existant)"
+                    "en": "Choose the Gitea administrator (must be an existing YunoHost user)",
+                    "fr": "Choisissez l'administrateur de Gitea (doit être un utilisateur YunoHost existant)"
                 },
                 "example": "johndoe"
             },
